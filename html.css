@@ -1,0 +1,170 @@
+
+body {
+    background-image: url("bg.png");
+    color: white;
+
+  }
+.start{
+  background-image: url("bg2.png");
+  background-repeat: no-repeat;
+  padding:50px;
+  width: 500px;
+  font-family:'Viner Hand ITC' ;
+  font-size:xx-large;
+  color:black;
+}
+.quiz{
+  font-size: xx-large;
+  padding:50px;
+  font-family:'Viner Hand ITC' ;
+}
+.quiz1{
+  font-size: xx-large;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family:'Viner Hand ITC' ;
+}
+.course{
+  font-size:xx-large;
+  
+  
+  font-family:'Viner Hand ITC' ;
+  background-color: white;
+  color:black;
+}
+
+button.donate-button {
+	padding: 9px 25px;
+	background-color: rgb(243, 223, 226);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	color: black;
+	font-weight: 700;
+}
+
+button.donate-button:hover {
+	background-color: rgb(243, 223, 226);
+}
+
+
+.test{
+  font-size:xx-large;
+  
+  
+  font-family:'Viner Hand ITC' ;
+  background-color: white;
+  color:black;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.footer{
+  background-color:black;
+}
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto;
+  border-radius: 10px;
+  padding:10px;
+  font-family:'Viner Hand ITC' ;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  color:black;
+  padding: 20px;
+  font-size: 30px;
+  font-family:'Viner Hand ITC';
+  text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  border-radius: 10px;
+  padding:10px;
+  font-family:'Viner Hand ITC' ;
+}
+
+.grid-item1 {
+  background-color:black;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  font-family:'Viner Hand ITC';
+  text-align: center;
+}
+
+
+.grid-item1 {
+background-color:black;
+color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+font-size: 30px;
+font-family:'Viner Hand ITC';
+text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:rgba(255, 255, 255, 0.8);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:rgba(255, 255, 255, 0.8);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}

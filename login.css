@@ -1,0 +1,116 @@
+body {
+    background-image: url("bg.png");
+    color: white;
+
+  }
+
+.form{
+  background-image: url("bg2.png");
+  background-repeat: no-repeat;
+  padding:50px;
+  width: 500px;
+}
+.quiz{
+  font-size: xx-large;
+  padding:50px;
+  font-family:'Viner Hand ITC' ;
+}
+
+.quiz1{
+  font-size: xx-large;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family:'Viner Hand ITC' ;
+  background-color:rgba(255, 255, 255, 0.8);
+  color:black;
+}
+.quiz2{
+  font-size: xx-large;
+  padding-left: 20px;
+  font-family:'Viner Hand ITC' ;
+}
+
+.email{
+  padding:10px;
+  color:black;
+}
+.password{
+  padding:10px;
+  color:black;
+}
+.gender{
+  color:black;
+  padding:10px;
+}
+.login{
+  font-size: xx-large;
+  color:black;
+}
+footer{
+  margin-top: 50px;
+ margin-left: 700px;
+}
+
+
+header{
+  margin-left: 1000px;
+  padding-right:5px;
+}
+
+.course{
+  font-size:xx-large;
+  
+  
+  font-family:'Viner Hand ITC' ;
+  background-color:rgba(255, 255, 255, 0.8);
+  color:black;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto;
+  border-radius: 10px;
+  padding:10px;
+  font-family:'Viner Hand ITC' ;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  color:black;
+  padding: 20px;
+  font-size: 30px;
+  font-family:'Viner Hand ITC';
+  text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  border-radius: 10px;
+  padding:10px;
+  font-family:'Viner Hand ITC' ;
+}
+
+.grid-item1 {
+  background-color:black;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  font-family:'Viner Hand ITC';
+  text-align: center;
+}
+
+.space {
+ background-color:rgba(255, 255, 255, 0.8);
+ color:black;
+  padding:10px;
+
+  
+}

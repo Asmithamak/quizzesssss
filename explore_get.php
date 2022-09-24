@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <!-- <title> Responsive Drop Down Navigation Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo">
+        <a href="login_get.php" style="color:black"> QUIZZESSSSSSSS </a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">CodingLab</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        
+        <ul class="links">
+          <li><a href="aboutus"style="color:black">About Us</a></li>
+          <li>
+          <a href="excersise.html" style="color:black">Excersise</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="exc.html">Html</a></li>
+              <li><a href="exc.html">Css</a></li>
+              <li><a href="exc.html">JavaScript</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="exc.html">Nodejs</a></li>
+                  <li><a href="exc.html">React js</a></li>
+                  <li><a href="exc.html">Naive js</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          
+          <li><a href="#" style="color:black">Quiz</a>
+           
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="html.html">Html</a></li>
+              <li><a href="html.html">Css</a></li>
+              <li><a href="html.html">JavaScript</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="html.html">Nodejs</a></li>
+                  <li><a href="html.html">React js</a></li>
+                  <li><a href="html.html">Naive js</a></li>
+                </ul>
+              </li>
+            </ul>
+             
+            </li>
+          <li><a href="#" style="color:black">Profile</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="profile.html">MyProfile</a></li>
+              <li><a href="login.html">logout</a></li>
+        
+            </ul></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+  <!--<script src="script.js"></script>-->
+  <br><br><br>
+</body>
+
+<br><br><br>
+<center> 
+  <div class="course">explore other courses available </div>
+  </center>
+  <br>
+  
+  
+  <div><center>
+      <img src="bubududu.gif" width="500px" height="500px">
+      </div>
+      </form><br>
+  
+  </center>
+  
+  </div>
+  
+  <div class="footer">
+      <div class="grid-container1">
+      
+        <div class="grid-item1">
+          <a href="html.html">excersise</a>
+      
+      </div>
+      <div class="grid-item1">
+          <a href="html.html">quiz</a>
+      
+      </div>
+      <div class="grid-item1">
+          <a href="html.html">doubts</a>
+      
+      </div>
+      <div class="grid-item1">
+         <ul>
+         <ul style="list-style-type:none;">
+          <li>html</li>  <li> css  </li>   <li> php </li>  <li>  javascript</li>
+            <li>python   </li> 
+      
+      </ul>
+      </div>
+      <div class="grid-item1">
+      <ul style="list-style-type:none;">
+          <li>html</li>  <li> css  </li>   <li> php </li>  <li>  javascript</li>
+             <li>python   </li> 
+      </ul>
+      </div>
+      <div class="grid-item1">
+      <ul style="list-style-type:none;">
+          <li>html</li>  <li> css  </li>   <li> php </li>  <li>  javascript</li>
+          <li>python   </li>  
+      </ul>
+      </div>
+      
+      
+      
+      </div>
+</html>
